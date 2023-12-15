@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/backgr1"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:textColor="@color/white"
+        android:fontFamily="@font/bangers"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:text="Add A Cinema Record!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:fontFamily="@font/bangers"
+        android:textColor="@color/white"
+        android:id="@+id/id_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Id"
+        android:text=""
+        android:layout_marginTop="20dp"
+        android:labelFor="@+id/edit_text_title"
+        android:textColorHint="@color/white" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:fontFamily="@font/bangers"
+        android:id="@+id/name_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:hint="Name"
+        android:text=""
+        android:layout_marginTop="20dp"
+        android:labelFor="@+id/edit_text_title"
+        android:textColorHint="@color/white" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:fontFamily="@font/bangers"
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Location"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:labelFor="@+id/edit_text_title"
+        android:textColorHint="@color/white" />
+
+    <TextView
+        android:textColor="@color/white"
+        android:fontFamily="@font/bangers"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:text="Select Movies Currently Running : "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+
+        android:layout_marginTop="20dp"
+        android:id="@+id/check1"
+        android:buttonTint="@color/white"
+        android:textSize="25dp"
+        android:fontFamily="@font/bangers"
+        android:textColor="@color/white"
+        android:text="Paw Patrol: The Mighty Movie (TBC)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+
+        android:layout_marginTop="20dp"
+        android:id="@+id/check2"
+        android:textSize="25dp"
+        android:fontFamily="@font/bangers"
+        android:textColor="@color/white"
+        android:text="BARBIE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:id="@+id/check3"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:fontFamily="@font/bangers"
+        android:textColor="@color/white"
+        android:text="THE EQUALIZER 3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:id="@+id/check4"
+    android:layout_marginTop="20dp"
+    android:textSize="25dp"
+    android:fontFamily="@font/bangers"
+    android:textColor="@color/white"
+    android:text="retribution"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:id="@+id/confirmButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:fontFamily="@font/bangers"
+        android:text="CONFIRM" />
+
+    <Button
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="15dp"
+        android:text="CANCEL"
+        android:fontFamily="@font/bangers"
+        android:id="@+id/cancel2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
